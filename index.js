@@ -813,9 +813,9 @@ async function ClientWA() {
     })
     wa.on('close', ({
         reason,
-        isRewaecting
+        isReconnecting
     }) => (
-        console.log('oh no got disVHected: ' + reason + ', reVHecting: ' + isRewaecting)
+        console.log('oh no got disconected: ' + reason + ', Reconnecting: ' + isReconnecting)
     ))
 }
 
