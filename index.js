@@ -25,7 +25,7 @@ const { sendImageUrl, sendVideoUrl, sendContact, sendMessage, sendAudioUrl, send
 const blocked = JSON.parse(fs.readFileSync('./mat/block.json'))
 const FormData =require('form-data');
 
-const APIKUY = "admin"
+const APIKUY = "Chat me https://wa.me/6281396061030"
 
 function os_func() {
     this.execCommand = function (cmd) {
