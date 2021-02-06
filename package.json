@@ -1,0 +1,35 @@
+{
+  "name": "Whatsapp-BOT",
+  "version": "0.0.3",
+  "description": "example-beta",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot"
+  ],
+  "author": "Mat",
+  "license": "GPL",
+  "dependencies": {
+    "@adiwajshing/baileys": "^3.4.1",
+    "moment-timezone": "^0.5.32",
+    "package": "^1.0.1",
+    "qrcode-terminal": "^0.11.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adiwajshing/Baileys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adiwajshing/Baileys/issues"
+  },
+  "homepage": "https://github.com/adiwajshing/Baileys#readme"
+}
